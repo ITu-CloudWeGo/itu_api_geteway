@@ -3,7 +3,7 @@ package config
 import (
 	_ "embed"
 	"fmt"
-	"gopkg.in/yaml.v3"
+	"github.com/goccy/go-yaml"
 	"os"
 	"sync"
 )
@@ -17,7 +17,7 @@ type Config struct {
 	Hertz struct {
 		Host string `yaml:"host"`
 		Port int    `yaml:"port"`
-	}
+	} `yaml:"Hertz"`
 }
 
 var (
