@@ -1,0 +1,8 @@
+Registry:
+  register_address: "127.0.0.1:2379"
+  username: ""
+  password: ""
+
+Hertz:
+  Host: "0.0.0.0"
+  Port: 8080
