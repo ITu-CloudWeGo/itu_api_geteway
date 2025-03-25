@@ -2,10 +2,18 @@ package router
 
 import (
 	"github.com/ITu-CloudWeGo/itu_api_geteway/internal/handler/auth"
+	"github.com/ITu-CloudWeGo/itu_api_geteway/internal/middleware"
 	"github.com/cloudwego/hertz/pkg/app/server"
 )
 
 func AuthRoutes(r *server.Hertz) {
-	r.POST("auth/refresh", auth.RefreshToken)
-	r.POST("auth/emailVerify", auth.EmailVerify)
+
+	apiGroup := r.Group("/api")
+	{
+		apiGroup.Use(middleware.CheckAccessToken())
+	}
+
+	r.POST("/api/auth/refresh", auth.RefreshToken).Use(middleware.CheckRefreshToken())
+
+	r.POST("/api/auth/emailVerify", auth.EmailVerify)
 }
