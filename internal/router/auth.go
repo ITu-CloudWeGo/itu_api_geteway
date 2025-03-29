@@ -13,7 +13,5 @@ func AuthRoutes(r *server.Hertz) {
 		apiGroup.Use(middleware.CheckAccessToken())
 	}
 
-	r.POST("/api/auth/refresh", auth.RefreshToken).Use(middleware.CheckRefreshToken())
-
 	r.POST("/api/auth/emailVerify", auth.EmailVerify)
 }
