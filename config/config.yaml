@@ -1,5 +1,5 @@
 Registry:
-  register_address: "127.0.0.1:2379"
+  register_address: 127.0.0.1:2379
   username: ""
   password: ""
 

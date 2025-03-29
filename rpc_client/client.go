@@ -24,7 +24,7 @@ func init() {
 
 // 认证模块
 func InitAuthRpcClient() (cli authservice.Client, err error) {
-	r, err := etcd.NewEtcdResolver([]string{globalConfig.Registry.RegisterAddress})
+	r, err := etcd.NewEtcdResolver([]string{"127.0.0.1:2379"})
 	if err != nil {
 		log.Fatal(err)
 	}
