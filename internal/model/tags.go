@@ -1,4 +1,4 @@
-package module
+package model
 
 type CreateTagsRequest struct {
 	Pid  uint64 `json:"pid"`

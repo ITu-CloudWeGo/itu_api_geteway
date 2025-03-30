@@ -2,10 +2,9 @@ package router
 
 import (
 	"github.com/ITu-CloudWeGo/itu_api_geteway/internal/handler/tgas"
-	"github.com/cloudwego/hertz/pkg/app/server"
+	"github.com/cloudwego/hertz/pkg/route"
 )
 
-func TagsRoutes(r *server.Hertz) {
-
-	r.POST("/api/tag/tags", tgas.CreateTags)
+func TagsRoutes(r *route.RouterGroup) {
+	r.POST("/tag/tags", tgas.CreateTags)
 }

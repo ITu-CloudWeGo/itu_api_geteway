@@ -2,7 +2,7 @@ package auth
 
 import (
 	"context"
-	"github.com/ITu-CloudWeGo/itu_api_geteway/internal/module"
+	"github.com/ITu-CloudWeGo/itu_api_geteway/internal/model"
 	"github.com/ITu-CloudWeGo/itu_api_geteway/rpc_client"
 	"github.com/ITu-CloudWeGo/itu_rpc_auth/rpc/kitex_gen/auth_service"
 	"github.com/cloudwego/hertz/pkg/app"
@@ -11,7 +11,7 @@ import (
 
 func RefreshToken(ctx context.Context, c *app.RequestContext) {
 	var err error
-	var req module.RefreshTokenRequest
+	var req model.RefreshTokenRequest
 	err = c.BindAndValidate(&req)
 	if err != nil {
 		c.String(http.StatusInternalServerError, err.Error())
@@ -30,7 +30,7 @@ func RefreshToken(ctx context.Context, c *app.RequestContext) {
 		c.String(http.StatusInternalServerError, "Failed to get Rpc client")
 		return
 	}
-	resp := module.RefreshTokenResponse{
+	resp := model.RefreshTokenResponse{
 		AccessToken:        res.AccessToken,
 		AccessTokenExpire:  res.AccessTokenExpire,
 		RefreshToken:       res.RefreshToken,

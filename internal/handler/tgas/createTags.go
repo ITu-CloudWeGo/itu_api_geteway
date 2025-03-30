@@ -2,7 +2,7 @@ package tgas
 
 import (
 	"context"
-	"github.com/ITu-CloudWeGo/itu_api_geteway/internal/module"
+	"github.com/ITu-CloudWeGo/itu_api_geteway/internal/model"
 	"github.com/ITu-CloudWeGo/itu_api_geteway/rpc_client"
 	"github.com/ITu-CloudWeGo/itu_rpc_tags/kitex_gen/tags_service"
 	"github.com/cloudwego/hertz/pkg/app"
@@ -11,7 +11,7 @@ import (
 
 func CreateTags(ctx context.Context, c *app.RequestContext) {
 	var err error
-	var req module.CreateTagsRequest
+	var req model.CreateTagsRequest
 	err = c.BindAndValidate(&req)
 	if err != nil {
 		c.String(http.StatusInternalServerError, "Failed to get Rpc client:"+err.Error())
@@ -29,7 +29,7 @@ func CreateTags(ctx context.Context, c *app.RequestContext) {
 		c.String(http.StatusInternalServerError, "Failed to get Rpc client:"+err.Error())
 		return
 	}
-	resp := module.CreateTagsResponse{
+	resp := model.CreateTagsResponse{
 		Status: res.Status,
 		Msg:    res.Msg,
 	}

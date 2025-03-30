@@ -1,4 +1,4 @@
-package module
+package model
 
 //type GenerateTokenRequest struct {
 //	Uid uint64 `json:"uid"`
