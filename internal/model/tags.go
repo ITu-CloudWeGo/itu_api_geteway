@@ -1,7 +1,7 @@
 package model
 
 type CreateTagsRequest struct {
-	Pid  uint64 `json:"pid"`
+	Pid  int64  `json:"pid"`
 	Tags string `json:"tags"`
 }
 
@@ -11,7 +11,7 @@ type CreateTagsResponse struct {
 }
 
 type DelTagsRequest struct {
-	Pid  uint64 `json:"pid"`
+	Pid  int64  `json:"pid"`
 	Tags string `json:"tags"`
 }
 

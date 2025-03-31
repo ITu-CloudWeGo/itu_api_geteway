@@ -6,10 +6,14 @@ import (
 )
 
 func GeneratedRegister(r *server.Hertz) {
+	notApiGroup := r.Group("/api")
 	apiGroupWithCheckAccessToken := r.Group("/api")
 	{
 		apiGroupWithCheckAccessToken.Use(middleware.CheckAccessToken())
 	}
 	AuthRoutes(apiGroupWithCheckAccessToken)
-	TagsRoutes(apiGroupWithCheckAccessToken)
+	LikesRoutes(apiGroupWithCheckAccessToken)
+	JwtUserRoutes(apiGroupWithCheckAccessToken)
+
+	NotJwtUserRoutes(notApiGroup)
 }

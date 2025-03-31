@@ -10,9 +10,9 @@ import (
 
 type Config struct {
 	Registry struct {
-		RegisterAddress string `yaml:"register_address"`
-		UserName        string `yaml:"user_name"`
-		Password        string `yaml:"password"`
+		RegisterAddress []string `yaml:"register_address"`
+		UserName        string   `yaml:"user_name"`
+		Password        string   `yaml:"password"`
 	} `yaml:"Registry"`
 	Hertz struct {
 		Host string `yaml:"host"`
