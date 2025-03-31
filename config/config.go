@@ -44,10 +44,18 @@ func loadConfig() (*Config, error) {
 		return nil, fmt.Errorf("failed to unmarshal config: %w", err)
 	}
 
-	etcdHostEnv := os.Getenv("ETCD_HOST")
-	if etcdHostEnv != "" {
-		conf.Registry.RegisterAddress = etcdHostEnv
+	// Registry
+	registryAddrEnv := os.Getenv("REGISTRY_ADDR")
+	if registryAddrEnv != "" {
+		conf.Registry.RegisterAddress = []string{registryAddrEnv}
 	}
-
+	registryUserNameEnv := os.Getenv("REGISTRY_USERNAME")
+	if registryUserNameEnv != "" {
+		conf.Registry.UserName = ""
+	}
+	registryPasswordEnv := os.Getenv("REGISTRY_PASSWORD")
+	if registryPasswordEnv != "" {
+		conf.Registry.Password = registryPasswordEnv
+	}
 	return &conf, nil
 }
