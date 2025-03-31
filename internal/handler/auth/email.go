@@ -15,11 +15,11 @@ func EmailVerify(ctx context.Context, c *app.RequestContext) {
 	if err != nil {
 		c.String(500, "Failed to get Rpc client:"+err.Error())
 	}
-	reqRPC, err := rpc_client.InitAuthRpcClient()
-	if err != nil {
-		c.String(500, "Failed to get Rpc client:"+err.Error())
-		return
-	}
+	reqRPC := rpc_client.GetAuthRpcClient()
+	//if err != nil {
+	//	c.String(500, "Failed to get Rpc client:"+err.Error())
+	//	return
+	//}
 	res, err := reqRPC.Email(ctx, &auth_service.EmailRequest{
 		Email: req.Email,
 	})

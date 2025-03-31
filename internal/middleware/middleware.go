@@ -17,12 +17,12 @@ func CheckAccessToken() app.HandlerFunc {
 		req := &auth_service.CheckAccessTokenRequest{
 			AccessToken: accessToken,
 		}
-		authClient, err := rpc_client.InitAuthRpcClient()
-		if err != nil {
-			// Todo Log
-			c.AbortWithStatus(401)
-			return
-		}
+		authClient := rpc_client.GetAuthRpcClient()
+		//if err != nil {
+		//	// Todo Log
+		//	c.AbortWithStatus(401)
+		//	return
+		//}
 		resp, err := authClient.CheckAccessToken(ctx, req)
 		if err != nil {
 			log.Printf("validate access token failed: %v", err)
@@ -46,12 +46,12 @@ func CheckRefreshToken() app.HandlerFunc {
 		req := &auth_service.CheckRefreshTokenRequest{
 			RefreshToken: refreshToken,
 		}
-		authClient, err := rpc_client.InitAuthRpcClient()
-		if err != nil {
-			// Todo Log
-			c.AbortWithStatus(401)
-			return
-		}
+		authClient := rpc_client.GetAuthRpcClient()
+		//if err != nil {
+		//	// Todo Log
+		//	c.AbortWithStatus(401)
+		//	return
+		//}
 		resp, err := authClient.CheckRefreshToken(ctx, req)
 		if err != nil {
 			log.Printf("validate refresh token failed: %v", err)

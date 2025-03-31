@@ -17,11 +17,11 @@ func AddLikes(ctx context.Context, c *app.RequestContext) {
 		c.String(consts.StatusBadRequest, err.Error())
 		return
 	}
-	reqRPC, err := rpc_client.InitLikesRpcClient()
-	if err != nil {
-		c.String(consts.StatusInternalServerError, err.Error())
-		return
-	}
+	reqRPC := rpc_client.GetLikesRpcClient()
+	//if err != nil {
+	//	c.String(consts.StatusInternalServerError, err.Error())
+	//	return
+	//}
 	res, err := reqRPC.AddLikes(ctx, &likes_service.AddLikesRequest{
 		Pid: req.Pid,
 		Uid: req.Uid,

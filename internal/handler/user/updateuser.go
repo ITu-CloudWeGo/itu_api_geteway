@@ -16,10 +16,10 @@ func UpdateUser(ctx context.Context, c *app.RequestContext) {
 	if err != nil {
 		c.String(http.StatusInternalServerError, "Failed to get Rpc client:"+err.Error())
 	}
-	reqRPC, err := rpc_client.InitUserRpcClient()
-	if err != nil {
-		c.String(http.StatusInternalServerError, "Failed to get Rpc client:"+err.Error())
-	}
+	reqRPC := rpc_client.GetUserRpcClient()
+	//if err != nil {
+	//	c.String(http.StatusInternalServerError, "Failed to get Rpc client:"+err.Error())
+	//}
 	res, err := reqRPC.UpdateUser(ctx, &user_service.UpdateUserRequest{
 		Uid:           req.Uid,
 		NewEmail:      req.NewEmail,

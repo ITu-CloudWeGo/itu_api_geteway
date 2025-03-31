@@ -16,11 +16,11 @@ func Sign(ctx context.Context, c *app.RequestContext) {
 	if err != nil {
 		c.String(http.StatusInternalServerError, "Failed to get Rpc client:"+err.Error())
 	}
-	reqRPC, err := rpc_client.InitUserRpcClient()
-	if err != nil {
-		c.String(http.StatusInternalServerError, "Failed to get Rpc client:"+err.Error())
-		return
-	}
+	reqRPC := rpc_client.GetUserRpcClient()
+	//if err != nil {
+	//	c.String(http.StatusInternalServerError, "Failed to get Rpc client:"+err.Error())
+	//	return
+	//}
 	res, err := reqRPC.Sign(ctx, &user_service.SignRequest{
 		Email:    req.Email,
 		Username: req.Username,

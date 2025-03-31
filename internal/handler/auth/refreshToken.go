@@ -18,11 +18,11 @@ func RefreshToken(ctx context.Context, c *app.RequestContext) {
 		return
 	}
 
-	reqRpc, err := rpc_client.InitAuthRpcClient()
-	if err != nil {
-		c.String(http.StatusInternalServerError, "Failed to get Rpc client:"+err.Error())
-		return
-	}
+	reqRpc := rpc_client.GetAuthRpcClient()
+	//if err != nil {
+	//	c.String(http.StatusInternalServerError, "Failed to get Rpc client:"+err.Error())
+	//	return
+	//}
 	res, err := reqRpc.RefreshToken(ctx, &auth_service.RefreshTokenRequest{
 		RefreshToken: req.RefreshToken,
 	})

@@ -11,6 +11,6 @@ func NotJwtUserRoutes(r *route.RouterGroup) {
 }
 
 func JwtUserRoutes(r *route.RouterGroup) {
-	r.GET("/api/user/userinfo", user.GetUser)
-	r.PUT("/api/user/update", user.UpdateUser)
+	r.GET("/user/userinfo", user.GetUser)
+	r.PUT("/user/update", user.UpdateUser)
 }
