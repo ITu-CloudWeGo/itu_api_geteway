@@ -57,7 +57,7 @@ func SendPost(ctx context.Context, c *app.RequestContext) {
 		fileResp, err := fileRpcCLi.UploadFile(ctx, &file_service.UploadFileRequest{
 			FileName:    imageFile.Filename,
 			FileContent: fileContent,
-			Type:        PostFileType,
+			Type:        FileType,
 		})
 		if err != nil {
 			c.JSON(http.StatusBadRequest, a.H{

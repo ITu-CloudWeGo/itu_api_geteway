@@ -2,6 +2,8 @@ filippo.io/edwards25519 v1.1.0 h1:FNf4tywRC1HmFuKW5xopWpigGjJKiJSV0Cqo0cJWDaA=
 filippo.io/edwards25519 v1.1.0/go.mod h1:BxyFTGdWcka3PhytdK4V28tE5sGfRvvvRV7EaN4VDT4=
 github.com/ITu-CloudWeGo/itu_rpc_auth v0.0.0-20250325140327-e115ebdd2915 h1:vmQeJNNsZniDORhAGv3b6th5B19GtqdO8/B9nTFmo3k=
 github.com/ITu-CloudWeGo/itu_rpc_auth v0.0.0-20250325140327-e115ebdd2915/go.mod h1:skIQh1Cq11uF3D+PbUM3FmrZILQIrNWdS30V0PdPoUA=
+github.com/ITu-CloudWeGo/itu_rpc_auth v0.0.0-20250331080301-84b5f68c8185 h1:ESqLoV/3zndBsZE3/HeL6iHMhb23ocuJ9y6aX48/v80=
+github.com/ITu-CloudWeGo/itu_rpc_auth v0.0.0-20250331080301-84b5f68c8185/go.mod h1:ZqNBF7tbsAFEV7OK1nx2vglUL1IM3WITQzuO1hGfKL4=
 github.com/ITu-CloudWeGo/itu_rpc_favorite v0.0.0-20250331073725-379a354fda8f h1:beyV3RI3vh8zU+yDqtiYGLw9lsAMx1QBfGEvqrXpJa4=
 github.com/ITu-CloudWeGo/itu_rpc_favorite v0.0.0-20250331073725-379a354fda8f/go.mod h1:Ak2h7eTyaLUTmw0xB0djtxQoXCDwn9e83WJVRQcVsj0=
 github.com/ITu-CloudWeGo/itu_rpc_file v0.0.0-20250331055314-340c08d3c87d h1:JkmSOurooeP6vqH3b8/Yv9toyOL7iQzuGaPAqV1VsTI=
@@ -14,6 +16,8 @@ github.com/ITu-CloudWeGo/itu_rpc_post v0.0.0-20250331134528-8c8f5171d287 h1:Cq6G
 github.com/ITu-CloudWeGo/itu_rpc_post v0.0.0-20250331134528-8c8f5171d287/go.mod h1:R7JkeZ0c7UdDPrVbjFotBnrJKODhXFvzX97y3xFHY8s=
 github.com/ITu-CloudWeGo/itu_rpc_post v0.0.0-20250331152726-d18b80b20801 h1:SI1EU5lISquz86mU0Ws4b3Gkhpl67RHBEQTGjLRpLos=
 github.com/ITu-CloudWeGo/itu_rpc_post v0.0.0-20250331152726-d18b80b20801/go.mod h1:R7JkeZ0c7UdDPrVbjFotBnrJKODhXFvzX97y3xFHY8s=
+github.com/ITu-CloudWeGo/itu_rpc_post v0.0.0-20250331155237-e0f00b2e4f2e h1:RakdVNI/pttPU/Vd/k5/JVVwaScMSwcoybHHOWVgtP8=
+github.com/ITu-CloudWeGo/itu_rpc_post v0.0.0-20250331155237-e0f00b2e4f2e/go.mod h1:R7JkeZ0c7UdDPrVbjFotBnrJKODhXFvzX97y3xFHY8s=
 github.com/ITu-CloudWeGo/itu_rpc_subscribe v0.0.0-20250331074009-0b74edb59410 h1:Py989ml/dxijjB7qiNMzybyknHx7KpdAACsAAvjadFE=
 github.com/ITu-CloudWeGo/itu_rpc_subscribe v0.0.0-20250331074009-0b74edb59410/go.mod h1:B5tN30aUvjxE1EnztkK8avj9avPAIkO0o5i5z1n7W7o=
 github.com/ITu-CloudWeGo/itu_rpc_tags v0.0.0-20250331064140-245578486245 h1:mdnI0XLajZeUpwC0/Zo3gZx4vPsbk32KSwrKwOF8ZII=
@@ -22,6 +26,8 @@ github.com/ITu-CloudWeGo/itu_rpc_tags v0.0.0-20250331152635-0e10a1b703de h1:+MTT
 github.com/ITu-CloudWeGo/itu_rpc_tags v0.0.0-20250331152635-0e10a1b703de/go.mod h1:HwJe6i4DeWoxJI/wM/Ey1W2EwDSGavWOgRQeWKLAq1k=
 github.com/ITu-CloudWeGo/itu_rpc_user v0.0.0-20250331102106-0cd3ed34f57d h1:UvLIzkT5dqhUbi1XLF3OiFdbkNTFiD0IQN84WCt64TE=
 github.com/ITu-CloudWeGo/itu_rpc_user v0.0.0-20250331102106-0cd3ed34f57d/go.mod h1:sOfFw5+OUB8AY3rFvxw+TlfpgKVcdaV0eqlkpKtuRPU=
+github.com/ITu-CloudWeGo/itu_rpc_user v0.0.0-20250331130530-aa8f5ff7a09e h1:UWzePRMqOR/Tgt396ir9UT7Scnu3g8T6lKkFzAzCUi0=
+github.com/ITu-CloudWeGo/itu_rpc_user v0.0.0-20250331130530-aa8f5ff7a09e/go.mod h1:vEOoLKuZkPXphmjZnx2thg0d6MxxYrRnyicGf34vHro=
 github.com/beorn7/perks v1.0.1 h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=
 github.com/beorn7/perks v1.0.1/go.mod h1:G2ZrVWU2WbWT9wwq4/hrbKbnv/1ERSJQ0ibhJ6rlkpw=
 github.com/bufbuild/protocompile v0.14.1 h1:iA73zAf/fyljNjQKwYzUHD6AD4R8KMasmwa/FBatYVw=
@@ -88,6 +94,8 @@ github.com/glebarez/go-sqlite v1.22.0 h1:uAcMJhaA6r3LHMTFgP0SifzgXg46yJkgxqyuyec
 github.com/glebarez/go-sqlite v1.22.0/go.mod h1:PlBIdHe0+aUEFn+r2/uthrWq4FxbzugL0L8Li6yQJbc=
 github.com/glebarez/sqlite v1.11.0 h1:wSG0irqzP6VurnMEpFGer5Li19RpIRi2qvQz++w0GMw=
 github.com/glebarez/sqlite v1.11.0/go.mod h1:h8/o8j5wiAsqSPoWELDUdJXhjAhsVliSn7bWZjOhrgQ=
+github.com/go-ini/ini v1.67.0 h1:z6ZrTEZqSWOTyH2FlglNbNgARyHG8oLW9gMELqKr06A=
+github.com/go-ini/ini v1.67.0/go.mod h1:ByCAeIL28uOIIG0E3PJtZPDL8WnHpFKFOtgjp+3Ies8=
 github.com/go-logr/logr v1.4.2 h1:6pFjapn8bFcIbiKo3XT4j/BhANplGihG6tvd+8rYgrY=
 github.com/go-logr/logr v1.4.2/go.mod h1:9T104GzyrTigFIr8wt5mBrctHMim0Nb2HLGrmQ40KvY=
 github.com/go-logr/stdr v1.2.2 h1:hSWxHoqTgW2S2qGc0LTAI563KZ5YKYRhT3MFKZMbjag=
@@ -95,6 +103,8 @@ github.com/go-logr/stdr v1.2.2/go.mod h1:mMo/vtBO5dYbehREoey6XUKy/eSumjCCveDpRre
 github.com/go-sql-driver/mysql v1.7.0/go.mod h1:OXbVy3sEdcQ2Doequ6Z5BW6fXNQTmx+9S1MCJN5yJMI=
 github.com/go-sql-driver/mysql v1.9.1 h1:FrjNGn/BsJQjVRuSa8CBrM5BWA9BWoXXat3KrtSb/iI=
 github.com/go-sql-driver/mysql v1.9.1/go.mod h1:qn46aNg1333BRMNU69Lq93t8du/dwxI64Gl8i5p1WMU=
+github.com/goccy/go-json v0.10.5 h1:Fq85nIqj+gXn/S5ahsiTlK3TmC85qgirsdTP/+DeaC4=
+github.com/goccy/go-json v0.10.5/go.mod h1:oq7eo15ShAhp70Anwd5lgX2pLfOS3QCiwU/PULtXL6M=
 github.com/goccy/go-yaml v1.16.0 h1:d7m1G7A0t+logajVtklHfDYJs2Et9g3gHwdBNNFou0w=
 github.com/goccy/go-yaml v1.16.0/go.mod h1:XBurs7gK8ATbW4ZPGKgcbrY1Br56PdM69F7LkFRi1kA=
 github.com/goccy/go-yaml v1.17.1 h1:LI34wktB2xEE3ONG/2Ar54+/HJVBriAGJ55PHls4YuY=
@@ -157,6 +167,9 @@ github.com/kitex-contrib/obs-opentelemetry/logging/logrus v0.0.0-20241120035129-
 github.com/kitex-contrib/obs-opentelemetry/logging/logrus v0.0.0-20241120035129-55da83caab1b/go.mod h1:RyQpX16txMOmC2a4yykhF1P50nzbHVnKnI/T0jA1ZOg=
 github.com/kitex-contrib/registry-etcd v0.2.6 h1:q+X8UmZQX+00g1IpGP4g4i20WYbEgcSN38EX60pZu0Y=
 github.com/kitex-contrib/registry-etcd v0.2.6/go.mod h1:jJ1n+obYqhifEBH5hWXo2w7dN1LDstWt7CNJTuhtcoo=
+github.com/klauspost/compress v1.18.0 h1:c/Cqfb0r+Yi+JtIEq73FWXVkRonBlf0CRNYc8Zttxdo=
+github.com/klauspost/compress v1.18.0/go.mod h1:2Pp+KzxcywXVXMr50+X0Q/Lsb43OQHYWRCY2AiWywWQ=
+github.com/klauspost/cpuid/v2 v2.0.1/go.mod h1:FInQzS24/EEf25PyTYn52gqo7WaD8xa0213Md/qVLRg=
 github.com/klauspost/cpuid/v2 v2.0.9/go.mod h1:FInQzS24/EEf25PyTYn52gqo7WaD8xa0213Md/qVLRg=
 github.com/klauspost/cpuid/v2 v2.2.10 h1:tBs3QSyvjDyFTq3uoc/9xFpCuOsJQFNPiAhYdw2skhE=
 github.com/klauspost/cpuid/v2 v2.2.10/go.mod h1:hqwkgyIinND0mEev00jJYCxPNVRVXFQeu1XKlok6oO0=
@@ -174,6 +187,12 @@ github.com/mattn/go-isatty v0.0.20/go.mod h1:W+V8PltTTMOvKvAeJH7IuucS94S2C6jfK/D
 github.com/matttproud/golang_protobuf_extensions v1.0.1 h1:4hp9jkHxhMHkqkrB3Ix0jegS5sx/RkqARlsWZ6pIwiU=
 github.com/matttproud/golang_protobuf_extensions/v2 v2.0.0 h1:jWpvCLoY8Z/e3VKvlsiIGKtc+UG6U5vzxaoagmhXfyg=
 github.com/matttproud/golang_protobuf_extensions/v2 v2.0.0/go.mod h1:QUyp042oQthUoa9bqDv0ER0wrtXnBruoNd7aNjkbP+k=
+github.com/minio/crc64nvme v1.0.1 h1:DHQPrYPdqK7jQG/Ls5CTBZWeex/2FMS3G5XGkycuFrY=
+github.com/minio/crc64nvme v1.0.1/go.mod h1:eVfm2fAzLlxMdUGc0EEBGSMmPwmXD5XiNRpnu9J3bvg=
+github.com/minio/md5-simd v1.1.2 h1:Gdi1DZK69+ZVMoNHRXJyNcxrMA4dSxoYHZSQbirFg34=
+github.com/minio/md5-simd v1.1.2/go.mod h1:MzdKDxYpY2BT9XQFocsiZf/NKVtR7nkE4RoEpN+20RM=
+github.com/minio/minio-go/v7 v7.0.89 h1:hx4xV5wwTUfyv8LarhJAwNecnXpoTsj9v3f3q/ZkiJU=
+github.com/minio/minio-go/v7 v7.0.89/go.mod h1:2rFnGAp02p7Dddo1Fq4S2wYOfpF0MUTSeLTRC90I204=
 github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421/go.mod h1:6dJC0mAP4ikYIbvyc7fijjWJddQyLn8Ig3JB5CqoB9Q=
 github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd h1:TRLaZ9cD/w8PVh93nsPXa1VrQ6jlwL5oN8l14QlcNfg=
 github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd/go.mod h1:6dJC0mAP4ikYIbvyc7fijjWJddQyLn8Ig3JB5CqoB9Q=
@@ -200,6 +219,8 @@ github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec/go.mod h1:qq
 github.com/rogpeppe/go-internal v1.6.1/go.mod h1:xXDCJY+GAPziupqXw64V24skbSoqbTEfhy4qGm1nDQc=
 github.com/rogpeppe/go-internal v1.14.1 h1:UQB4HGPB6osV0SQTLymcB4TgvyWu6ZyliaW0tI/otEQ=
 github.com/rogpeppe/go-internal v1.14.1/go.mod h1:MaRKkUm5W0goXpeCfT7UZI6fk/L7L7so1lCWt35ZSgc=
+github.com/rs/xid v1.6.0 h1:fV591PaemRlL6JfRxGDEPl69wICngIQ3shQtzfy2gxU=
+github.com/rs/xid v1.6.0/go.mod h1:7XoLgs4eV+QndskICGsho+ADou8ySMSjJKDIan90Nz0=
 github.com/sirupsen/logrus v1.9.3 h1:dueUQJ1C2q9oE3F7wvmSGAaVtTmUizReu6fjN8uqzbQ=
 github.com/sirupsen/logrus v1.9.3/go.mod h1:naHLuLoDiP4jHNo9R0sCBMtWGeIprob74mVsIT4qYEQ=
 github.com/smartystreets/assertions v0.0.0-20180927180507-b2de0cb4f26d h1:zE9ykElWQ6/NYmHa3jpm/yHnI4xSofP+UP6SpjHcSeM=

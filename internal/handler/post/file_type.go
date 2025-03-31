@@ -1,5 +1,5 @@
 package post
 
 var (
-	PostFileType = "post"
+	FileType = "post"
 )

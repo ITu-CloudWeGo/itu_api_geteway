@@ -3,14 +3,14 @@ module github.com/ITu-CloudWeGo/itu_api_geteway
 go 1.24.1
 
 require (
-	github.com/ITu-CloudWeGo/itu_rpc_auth v0.0.0-20250325140327-e115ebdd2915
+	github.com/ITu-CloudWeGo/itu_rpc_auth v0.0.0-20250331080301-84b5f68c8185
 	github.com/ITu-CloudWeGo/itu_rpc_favorite v0.0.0-20250331073725-379a354fda8f
 	github.com/ITu-CloudWeGo/itu_rpc_file v0.0.0-20250331055314-340c08d3c87d
 	github.com/ITu-CloudWeGo/itu_rpc_like v0.0.0-20250331080706-254c75bd1700
-	github.com/ITu-CloudWeGo/itu_rpc_post v0.0.0-20250331152726-d18b80b20801
+	github.com/ITu-CloudWeGo/itu_rpc_post v0.0.0-20250331155237-e0f00b2e4f2e
 	github.com/ITu-CloudWeGo/itu_rpc_subscribe v0.0.0-20250331074009-0b74edb59410
 	github.com/ITu-CloudWeGo/itu_rpc_tags v0.0.0-20250331152635-0e10a1b703de
-	github.com/ITu-CloudWeGo/itu_rpc_user v0.0.0-20250331102106-0cd3ed34f57d
+	github.com/ITu-CloudWeGo/itu_rpc_user v0.0.0-20250331130530-aa8f5ff7a09e
 	github.com/cloudwego/hertz v0.9.6
 	github.com/cloudwego/kitex v0.12.3
 	github.com/goccy/go-yaml v1.17.1
@@ -44,7 +44,9 @@ require (
 	github.com/fsnotify/fsnotify v1.8.0 // indirect
 	github.com/glebarez/go-sqlite v1.22.0 // indirect
 	github.com/glebarez/sqlite v1.11.0 // indirect
+	github.com/go-ini/ini v1.67.0 // indirect
 	github.com/go-sql-driver/mysql v1.9.1 // indirect
+	github.com/goccy/go-json v0.10.5 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/go-cmp v0.7.0 // indirect
@@ -60,9 +62,13 @@ require (
 	github.com/jinzhu/now v1.1.5 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/kitex-contrib/obs-opentelemetry/logging/logrus v0.0.0-20241120035129-55da83caab1b // indirect
+	github.com/klauspost/compress v1.18.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.10 // indirect
 	github.com/kr/pretty v0.3.0 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
+	github.com/minio/crc64nvme v1.0.1 // indirect
+	github.com/minio/md5-simd v1.1.2 // indirect
+	github.com/minio/minio-go/v7 v7.0.89 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/ncruces/go-strftime v0.1.9 // indirect
@@ -70,6 +76,7 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/redis/go-redis/v9 v9.7.3 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
+	github.com/rs/xid v1.6.0 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/stretchr/testify v1.10.0 // indirect
 	github.com/tidwall/gjson v1.18.0 // indirect
