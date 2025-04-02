@@ -4,15 +4,15 @@ go 1.24.1
 
 require (
 	github.com/ITu-CloudWeGo/itu_rpc_auth v0.0.0-20250331080301-84b5f68c8185
-	github.com/ITu-CloudWeGo/itu_rpc_favorite v0.0.0-20250331073725-379a354fda8f
+	github.com/ITu-CloudWeGo/itu_rpc_favorite v0.0.0-20250402124622-1112df39d9bb
 	github.com/ITu-CloudWeGo/itu_rpc_file v0.0.0-20250331055314-340c08d3c87d
-	github.com/ITu-CloudWeGo/itu_rpc_like v0.0.0-20250331080706-254c75bd1700
-	github.com/ITu-CloudWeGo/itu_rpc_post v0.0.0-20250331155237-e0f00b2e4f2e
-	github.com/ITu-CloudWeGo/itu_rpc_subscribe v0.0.0-20250331074009-0b74edb59410
+	github.com/ITu-CloudWeGo/itu_rpc_like v0.0.0-20250401092212-a1c78a531ed1
+	github.com/ITu-CloudWeGo/itu_rpc_post v0.0.0-20250402130635-381e3ab50642
+	github.com/ITu-CloudWeGo/itu_rpc_subscribe v0.0.0-20250402123930-4324759f14cd
 	github.com/ITu-CloudWeGo/itu_rpc_tags v0.0.0-20250331152635-0e10a1b703de
 	github.com/ITu-CloudWeGo/itu_rpc_user v0.0.0-20250331130530-aa8f5ff7a09e
 	github.com/cloudwego/hertz v0.9.6
-	github.com/cloudwego/kitex v0.12.3
+	github.com/cloudwego/kitex v0.13.0
 	github.com/goccy/go-yaml v1.17.1
 	github.com/kitex-contrib/registry-etcd v0.2.6
 )
@@ -20,7 +20,7 @@ require (
 require (
 	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/bufbuild/protocompile v0.14.1 // indirect
-	github.com/bytedance/gopkg v0.1.1 // indirect
+	github.com/bytedance/gopkg v0.1.2 // indirect
 	github.com/bytedance/sonic v1.13.2 // indirect
 	github.com/bytedance/sonic/loader v0.2.4 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
@@ -28,11 +28,11 @@ require (
 	github.com/cloudwego/configmanager v0.2.3 // indirect
 	github.com/cloudwego/dynamicgo v0.6.2 // indirect
 	github.com/cloudwego/fastpb v0.0.5 // indirect
-	github.com/cloudwego/frugal v0.2.4 // indirect
+	github.com/cloudwego/frugal v0.2.5 // indirect
 	github.com/cloudwego/gopkg v0.1.4 // indirect
 	github.com/cloudwego/iasm v0.2.0 // indirect
 	github.com/cloudwego/localsession v0.1.2 // indirect
-	github.com/cloudwego/netpoll v0.6.5 // indirect
+	github.com/cloudwego/netpoll v0.7.0 // indirect
 	github.com/cloudwego/runtimex v0.1.1 // indirect
 	github.com/cloudwego/thriftgo v0.4.1 // indirect
 	github.com/coreos/go-semver v0.3.1 // indirect
@@ -100,7 +100,7 @@ require (
 	golang.org/x/text v0.23.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20250324211829-b45e905df463 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250324211829-b45e905df463 // indirect
-	google.golang.org/grpc v1.71.0 // indirect
+	google.golang.org/grpc v1.71.1 // indirect
 	google.golang.org/protobuf v1.36.6 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect

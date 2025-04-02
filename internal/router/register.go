@@ -13,6 +13,7 @@ func GeneratedRegister(r *server.Hertz) {
 		AuthRoutes(apiWithAccessJwt)
 		LikesRoutes(apiWithAccessJwt)
 		JwtUserRoutes(apiWithAccessJwt)
+		PostRoutes(apiWithAccessJwt)
 	}
 
 	notCheckedApi := r.Group("/api")

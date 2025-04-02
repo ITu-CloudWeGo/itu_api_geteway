@@ -14,7 +14,7 @@ import (
 )
 
 func SendPost(ctx context.Context, c *app.RequestContext) {
-	// TODO: Implement this function
+
 	formData, err := c.MultipartForm()
 	if err != nil {
 		c.JSON(http.StatusBadRequest, a.H{
